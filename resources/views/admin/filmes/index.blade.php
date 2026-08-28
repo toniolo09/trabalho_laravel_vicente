@@ -11,7 +11,7 @@
             @endif
 
             <div class="mb-4 flex justify-end">
-                <a href="{{ route('admin.filmes.create') }}" class="bg-indigo-600 text-white px-4 py-2 rounded hover:bg-indigo-700">
+                <a href="{{ route('admin.filmes.create') }}" class="bg-indigo-600 px-4 py-2 rounded hover:bg-indigo-700 border border-indigo-600">
                     + Novo Filme
                 </a>
             </div>
