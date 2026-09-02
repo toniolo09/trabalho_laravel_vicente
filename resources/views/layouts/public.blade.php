@@ -7,7 +7,7 @@
 </head>
 <body class="bg-gray-50">
     <nav class="bg-white shadow p-4 flex justify-between items-center">
-        <a href="{{ route('home') }}" class="font-bold text-lg">🎬 Catálogo de Filmes</a>
+        <a href="{{ route('home') }}" class="font-bold text-lg">Catálogo de Filmes</a>
         <div>
             @auth
                 <a href="{{ route('admin.filmes.index') }}" class="text-indigo-600 mr-4">Painel Admin</a>
